@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const mongoose = require("mongoose");
+const port = process.env.PORT || 3001;
 
 
 
@@ -26,6 +27,6 @@ if(process.env.NODE_ENV === "production"){
 }
 app.use("/", require("./routes/contactRoute"));
 
-app.listen(3001,function() {
-    console.log("exprss server is up")
-})
+app.listen(3001, () => {
+    console.log("exprss server is up");
+});
