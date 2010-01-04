@@ -9,20 +9,24 @@
       padding: 15px;
   }
   .product{
-      margin-top: 70px;
+      margin-top: 5em;
       align-items: center;
+      margin-bottom: 5em;
   }
   .visit-currency{
       margin-top: 20px;
       align-items: center;
   }
-  .learn-pic{
+  .learnpic{
      width:35%;
-     height:15%;
+     height:8%;
   }
   .ebook{
     width:60%;
     height:45%;
+ }
+ #eb{
+     margin-top: 40px;
  }
  .ebookc{
      width: 40%;
@@ -43,6 +47,6 @@
       }
       .ebook{
         width:35%;
-        height:20%;
+        height:25%;
      }
   }

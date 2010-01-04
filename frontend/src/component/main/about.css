@@ -24,7 +24,7 @@ h2{
 .name{
     justify-content: space-around;
     align-items: center;
-    width: 70%;
+    width: 90%;
     text-align: left;
     color: white;
 }
@@ -54,7 +54,7 @@ h2{
 }
 @media(max-width: 900px){
     .name{
-        width: 90%;
+        width: 95%;
         text-align:right;
     }
     .image-logo{
@@ -81,7 +81,7 @@ h2{
 }
 @media(max-width: 600px){
     .name{
-        width: 90%;
+        width: 95%;
         text-align:right;
     }
     .image-logo{

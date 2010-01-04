@@ -24,15 +24,15 @@ const Product =() =>  (
      <div className="currency">
      <h2>BOOKS</h2>
      <img className="ebook" src ={ebook}  alt="softage logo"/>
-     <p className="product-p" >Complete web development  course for everyone <br></br>
+     <p className="product-p" id="eb">Complete web development  course for <br></br>everyone
             at a very affordable price </p>
-            <button className="hbutton">Request</button>
+            <button className="hbutton" >Request</button>
     </div>
      </div>
      <div className="product">
      <div className="currency">
      <h2>TRAINING</h2>
-     <img className="learn-pic" src ={learn}  alt="softage logo"/>
+     <img className="learnpic" src ={learn}  alt="softage teach tutorials"/>
      <p className="product-p">How would you like a one-on-one leason<br></br> on mobile and web development?</p>
      <button className="hbutton">Request</button>
      </div>

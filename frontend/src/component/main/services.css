@@ -5,7 +5,6 @@
     box-sizing: boder-box;
 }
 .website{
-    margin-bottom: 0px;
     width: 100%;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,2.0));
     align-items:center;
@@ -18,12 +17,12 @@
     text-align: center;
     align-items: center;
     overflow: hidden;
+    height: 30em;
 }
 #green{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3em;
 }
 
 .web{
@@ -43,7 +42,7 @@
     overflow: hidden;
     max-width: 30%;
     max-height: 40%;
-    padding:3em;
+    padding:3.3em;
     font-family: "Times New Roman", Times, serif
 }
 .serviceh3{
@@ -73,7 +72,7 @@
   background-color: transparent;
   position: relative;
 }
-@media only screen and (max-width: 55em){
+@media only screen and (max-width: 900px){
   .website{
       width: 100%;
       padding: 30px;
@@ -82,15 +81,12 @@
       overflow: hidden;
       text-align: center;
   }
-  button{
-      font-size: 10px;
-      width: 1em;
-  }
   #green{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0%;
+    margin: 0;
 }
   .serviceh3{
       height: 42px;
@@ -109,16 +105,18 @@
   }
   .webservice{
       display: flex;
+      flex-direction: column;
       justify-content: space-around;
       text-align: center;
       align-items: center;
       width: 100%;
-      height: 20em;
+      height: 50em;
       margin-bottom:  1em;
+      margin-top: 1em;
       overflow: hidden;
   }
   .serviceh1{
-      font-size: 1em;
+      font-size: 1.5em;
   }
   .serviceHead{
       display: flex;
@@ -127,20 +125,20 @@
         align-items: center;
         border-radius: 50%;
         overflow: hidden;
-        
+        padding: 20%;
     }
   .web{
       display: flex;
       width:100%;
       justify-content: center;
       flex-direction:column;
-      margin: 20px;
+      margin: 0px;
   }
   .servicetype{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 20px;
+      margin-top: 10px;
   }
 }
