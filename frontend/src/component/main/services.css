@@ -1,0 +1,133 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: boder-box;
+}
+.website{
+    margin-bottom: 0px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,2.0));
+    align-items:left;
+    overflow: hidden;
+    text-align: center;
+}
+.webservice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top:  20px;
+    margin-bottom:  40px;
+    overflow: hidden;
+}
+
+.web{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+.serviceHead{
+  display: flex;
+  justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius:45 %;
+    background: transparent ;
+    overflow: hidden;
+    max-width: 20%;
+    padding:45px;
+    font-family: "Times New Roman", Times, serif
+}
+.serviceh3{
+    height: 42px;
+    width:230px;
+    padding:5px;
+    background: linear-gradient(rgbargb(229, 223, 27, 1), rgbargb(229, 223, 27, 1));
+    position: relative;
+    color: #66BFBF;
+}
+.serviceh3:before {
+  content: "";
+  position: absolute;
+  right:-30px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-top: 25px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+.pack{
+  margin: 4px;
+  color:white;
+  width:230px;
+  padding:2px;
+  background-color: transparent;
+  position: relative;
+}
+@media(max-width: 800px){
+  .website{
+      width: 100%;
+      padding: 10px;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,2.0));
+      align-items:left;
+      overflow: hidden;
+      text-align: center;
+  }
+  .serviceh3{
+      height: 42px;
+      width:250px;
+      padding:5px;
+      position: relative;
+      color: #66BFBF;
+  }
+  .pack{
+      margin: 4px;
+      color:white;
+      height: 15px;
+      width:250px;
+      padding:2px;
+      position: relative;
+  }
+  .webservice{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      align-items: center;
+      margin-top:  0px;
+      margin-bottom:  0em;
+      overflow: hidden;
+  }
+  .serviceHead{
+      display: flex;
+      justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        overflow: hidden;
+        height: 3%;
+        padding:5em;
+    }
+  .web{
+      display: flex;
+      float: right;
+      width:100%;
+      justify-content: space-around;
+      flex-direction: column;
+  }
+  #super{
+      margin-top: 10em;
+  }
+  .servicetype{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 25em;
+      height: 23em;
+  }
+}

@@ -1,0 +1,48 @@
+.product-page{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .product-background{
+      text-align: center;
+      background:black;
+      padding: 15px;
+  }
+  .product{
+      margin-top: 70px;
+      align-items: center;
+  }
+  .visit-currency{
+      margin-top: 20px;
+      align-items: center;
+  }
+  .learn-pic{
+     width:35%;
+     height:15%;
+  }
+  .ebook{
+    width:60%;
+    height:45%;
+ }
+ .ebookc{
+     width: 40%;
+     height:25%
+ }
+
+  .product-p{
+      color: white;
+      line-height: 1rem;
+      margin: 15px;
+  }
+  @media(max-width: 900px){
+    .product-page{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      .ebook{
+        width:35%;
+        height:20%;
+     }
+  }
