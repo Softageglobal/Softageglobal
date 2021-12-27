@@ -27,6 +27,6 @@ if(process.env.NODE_ENV === "production"){
 }
 app.use("/", require("./routes/contactRoute"));
 
-app.listen(3001, () => {
+app.listen(port, () => {
     console.log("exprss server is up");
 });
