@@ -17,12 +17,12 @@ function SliderContent({ activeIndex, imageSlider }) {
                 <div className="title">
                   <h1>LET YOUR PASSION PAY YOU!</h1>
                   <h3>Spacialist in Mobile and Web Development Services</h3>
-                  <div>
+                  <div className="bigbutton">
                      <Link to="/services">
                      <button className="hbutton" type="button" id="b2">Get Website</button>
                     </Link>
                     <Link to="/Contact">
-                    <button className="hbutton" type="button" id="b2">Joing Us</button>
+                    <button className="hbutton" type="button" id="b2">Join Us</button>
                     </Link>
                   </div>
                 </div>

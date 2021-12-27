@@ -24,8 +24,8 @@ const Product =() =>  (
      <div className="currency">
      <h2>BOOKS</h2>
      <img className="ebook" src ={ebook}  alt="softage logo"/>
-     <p className="product-p" >Complete web development  course <br></br>
-            at a very afordable price </p>
+     <p className="product-p" >Complete web development  course for everyone <br></br>
+            at a very affordable price </p>
             <button className="hbutton">Request</button>
     </div>
      </div>

@@ -16,8 +16,8 @@ const About = () =>  (
                <div className="story">
                 <h2>Our Name</h2>
                    <p>Softage as the name implies is a team of software 
-                   Engeneers dedicated to sorting, analyzing and providing
-                   perfect solutions to the chanllengis and problems faced by
+                   Engineers dedicated to sorting, analyzing and providing
+                   perfect solutions to the chanllenges and problems faced by
                    mankind. Through the building of modern technolog software and gagets,
                     We work day and night transforming ideas into usable software
                     apps and gagets thereby making life experience better and
@@ -34,7 +34,7 @@ const About = () =>  (
                       with the intention of making Business more profitable and stress 
                       free. We belive in making everyone happy and feeling special because,
                       we grow bigger and stronger when everyone is happy.<br></br>
-                      It also create room for innovation  and and sucess.
+                      It also create room for innovation and sucess.
                       
                     </p>
                     </div> 
@@ -43,7 +43,7 @@ const About = () =>  (
             <img className="image-logo2" src ={slider5}  alt="softage logo"/>  
                <div className="story2">
                 <h2>Solving Problems</h2>
-                   <p>At softage, when ever we discover problems, we view it as piority by 
+                   <p>At Softage, when ever we discover problems, we view it as piority by 
                       trying to fix it with our essiential tech skills.
                       We create solutions to life`s problems ranging from Business, to life Enhancement
                       Materials, such as computers and medical equipment. <br></br>
@@ -56,9 +56,9 @@ const About = () =>  (
             <img className="image-logo2" src ={slider4}  alt="softage logo"/>  
             <div className="story2">
              <h2>Making The World Happy</h2>
-                <p>Softage has a common and import goal MAKE EVERYONE HAPPY Therefore,
+                <p>Softage has a common and import' goal MAKE EVERYONE HAPPY. Therefore,
                    we view it as a priviledge when poeple from all part of the world tap
-                   into our success story and become one of many who haave either learned to
+                   into our success story and become one of many who have either learned to
                    code from us, or used our service to build and maintain websites and mobile
                    apps. 
                  </p>
