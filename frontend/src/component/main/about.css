@@ -52,7 +52,7 @@ h2{
     margin-top:70px;
     line-height: 1.5rem;
 }
-@media(max-width: 900px){
+@media(max-width: 1200px){
     .name{
         width: 90%;
         text-align:right;
@@ -68,28 +68,35 @@ h2{
     .image-logo2{
         height:30%;
         width: 50%;
-        border-radius: 30%;
-        margin: 10em, 2em, 2em, 2em;
+        border-radius: 10%;
+        
         float: right;
         text-align: left;
+        margin-top: 10em;
     }
     .story2{
         margin-top:70px;
-        line-height: 1.5rem;
+        line-height: 1.8rem;
         text-align: left;
     }
 }
-@media(max-width: 600px){
+@media(max-width: 720px){
     .name{
         width: 90%;
         text-align:right;
+        line-height: 2em;
+    }
+    #ala{
+        text-align: center;
     }
     .image-logo{
+        display: none;
         margin-left:2%; 
         margin-top: 15%;
         width: 40%;
         height:70%;
         border-radius: 50%;
-        float: left;
+        float: left ;
+        text-align: center;
     }
 }

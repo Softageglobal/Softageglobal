@@ -43,7 +43,7 @@ li{
         width: 20em;
        flex-direction: column;
        height: 16em;
-       margin-left: 75em;
+       margin-left: 80em;
        margin-top: 23em;
        position: absolute;
        z-index: 1;
@@ -65,20 +65,20 @@ li{
         overflow: hidden;
     }
     .navlink{
-        margin-left: 36em;
+        margin-left: 27em;
         transition: 1s;
     }
 }
-@media (max-width: 600px){
+@media (max-width: 720px){
     ul{
        margin-left: 41em;
        width: 13em;
     }
     .menu-icons{
-        margin-left: 0em;
+        margin-left: 8em;
     }
     .navlink{
-        margin-left: 25em;
+        margin-left: 22em;
         padding: 1em;
         height: 12em;
         margin-top: 17em;

@@ -181,7 +181,7 @@ boder-radius: 5px 0px 0px 5px;
 @media  (max-width: 1200px) {
     .title{
         width: 60%;
-        margin: 25% auto 0%;
+        margin: 14% auto 0%;
         text-align: center;
         color: #fff;
     
@@ -198,7 +198,7 @@ boder-radius: 5px 0px 0px 5px;
     }
     
     :root{
-        --heights: 40vh;
+        --heights: 65vh;
         --widths: 100%;
     }
     .slider-container {
@@ -227,14 +227,14 @@ boder-radius: 5px 0px 0px 5px;
     }
     .banner{
         width: 100%;
-        height: 40vh;
+        height: 65vh;
         position: relative;
         overflow: hidden;
     
     }
     .slider{
         width: 100%;
-        height: 40vh;
+        height: 65vh;
         position: absolute;
         padding: 0;
         margin: 0;
@@ -249,14 +249,14 @@ boder-radius: 5px 0px 0px 5px;
 @media  (max-width: 720px) {
     .title{
         width: 50%;
-        margin: 17% auto 0%;
+        margin-top: 15% auto 0%;
         text-align: center;
         align-items: center;
         color: #fff;
     
     }
     .title h1{
-        margin-bottom: 25%;
+        margin-bottom: 18%;
         font-size: 30px;
     }
     .title h3{
@@ -273,7 +273,7 @@ boder-radius: 5px 0px 0px 5px;
     }
     
     :root{
-        --heights: 30vh;
+        --heights: 43vh;
         --widths: 100%;
     }
     .slider-container {
@@ -302,14 +302,14 @@ boder-radius: 5px 0px 0px 5px;
     }
     .banner{
         width: 100%;
-        height: 30vh;
+        height: 43vh;
         position: relative;
         overflow: hidden;
     
     }
     .slider{
         width: 100%;
-        height: 30vh;
+        height: 43vh;
         position: absolute;
         padding: 0;
         margin: 0;

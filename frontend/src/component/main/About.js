@@ -11,9 +11,9 @@ import "./about.css"
 const About = () =>  (
         <div className="content">
         <div className="about">
-        <div className="name">
+        <div className="name" id="ala">
             <img className="image-logo" src ={logo9_14_12718}  alt="softage logo"/>
-               <div className="story">
+               <div className="story" >
                 <h2>Our Name</h2>
                    <p>Softage as the name implies is a team of software 
                    Engineers dedicated to sorting, analyzing and providing
