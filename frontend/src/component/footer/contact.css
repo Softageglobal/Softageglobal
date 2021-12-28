@@ -172,7 +172,6 @@ input[type="text"]:focus{
 }
     .col{
         display: flex;
-        flex-direction: ;
         width: 90%;
         flex: 0 0 70%;
     }
@@ -222,7 +221,7 @@ input[type="text"]:focus{
         justify-content:center;
         align-items: center;
         text-align: center;
-        height: 60em;
+        height: 70em;
     }
     form{
         padding: 10px;

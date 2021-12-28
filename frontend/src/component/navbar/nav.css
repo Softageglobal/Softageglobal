@@ -44,7 +44,7 @@ li{
        flex-direction: column;
        height: 16em;
        margin-left: 80em;
-       margin-top: 23em;
+       margin-top: 18em;
        position: absolute;
        z-index: 1;
        overflow: hidden;
@@ -65,7 +65,7 @@ li{
         overflow: hidden;
     }
     .navlink{
-        margin-left: 10em;
+        margin-left: 13em;
         transition: 1s;
     }
 }
@@ -81,7 +81,7 @@ li{
         margin-left: 7em;
         padding: 1em;
         height: 12em;
-        margin-top: 17em;
+        margin-top: 11em;
     }
     li{
         list-style: none;
