@@ -65,7 +65,7 @@ li{
         overflow: hidden;
     }
     .navlink{
-        margin-left: 27em;
+        margin-left: 15em;
         transition: 1s;
     }
 }
@@ -78,7 +78,7 @@ li{
         margin-left: 8em;
     }
     .navlink{
-        margin-left: 22em;
+        margin-left: 15em;
         padding: 1em;
         height: 12em;
         margin-top: 17em;

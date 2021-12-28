@@ -252,7 +252,7 @@ input[type="text"]:focus{
 }
     .col{
         display: flex;
-        flex-direction: ;
+        flex-direction: column;
         width: 90%;
         flex: 0 0 70%;
     }

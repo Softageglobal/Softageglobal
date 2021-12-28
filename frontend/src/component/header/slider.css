@@ -253,7 +253,9 @@ boder-radius: 5px 0px 0px 5px;
         text-align: center;
         align-items: center;
         color: #fff;
-    
+    }
+    .bigbutton{
+        width: 70%;
     }
     .title h1{
         margin-bottom: 18%;
