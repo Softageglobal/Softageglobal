@@ -69,7 +69,6 @@ h2{
         height:30%;
         width: 50%;
         border-radius: 10%;
-        
         float: right;
         text-align: left;
         margin-top: 10em;
@@ -82,7 +81,7 @@ h2{
 }
 @media(max-width: 720px){
     .name{
-        width: 85%;
+        width: 87%;
         text-align:right;
         line-height: 2em;
     }
