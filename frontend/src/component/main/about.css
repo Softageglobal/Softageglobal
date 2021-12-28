@@ -81,7 +81,7 @@ h2{
 }
 @media(max-width: 720px){
     .name{
-        width: 87%;
+        width: 90%;
         text-align:right;
         line-height: 2em;
     }
