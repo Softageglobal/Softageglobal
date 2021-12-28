@@ -4,15 +4,17 @@
     margin: 0;
     box-sizing: boder-box;
 }
-html{
+html, body{
     font-family: "montserrat", sans-serif;
+    overflow-x: hidden;
 }
 body{
+    position: relative;
     font-family: "montserrat", sans-serif;
     align-items:center;
     background: #eee;
     padding: 0;
-    overflow-x: hidden;
+
 }
 
 

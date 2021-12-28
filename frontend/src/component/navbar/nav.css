@@ -42,9 +42,9 @@ li{
         color: #fff;
         width: 20em;
        flex-direction: column;
-       height: 26em;
-       margin-left: 80em;
-       margin-top: 30em;
+       height: 16em;
+       margin-left: 75em;
+       margin-top: 23em;
        position: absolute;
        z-index: 1;
        overflow: hidden;
@@ -61,7 +61,7 @@ li{
         width: 1.5em;
         display: flex;
         align-items: right;
-        margin-left: 20em;
+        margin-left: 10em;
         overflow: hidden;
     }
     .navlink{
@@ -71,14 +71,17 @@ li{
 }
 @media (max-width: 600px){
     ul{
-       margin-left: 70em;
+       margin-left: 41em;
        width: 13em;
     }
     .menu-icons{
-        margin-left: 13em;
+        margin-left: 0em;
     }
     .navlink{
-        margin-left: 20em;
+        margin-left: 25em;
+        padding: 1em;
+        height: 12em;
+        margin-top: 17em;
     }
     li{
         list-style: none;

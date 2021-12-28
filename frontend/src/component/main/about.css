@@ -24,7 +24,7 @@ h2{
 .name{
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 70%;
     text-align: left;
     color: white;
 }
@@ -50,11 +50,11 @@ h2{
 }
 .story2{
     margin-top:70px;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 @media(max-width: 900px){
     .name{
-        width: 95%;
+        width: 90%;
         text-align:right;
     }
     .image-logo{
@@ -75,13 +75,13 @@ h2{
     }
     .story2{
         margin-top:70px;
-        line-height: 2rem;
+        line-height: 1.5rem;
         text-align: left;
     }
 }
 @media(max-width: 600px){
     .name{
-        width: 95%;
+        width: 90%;
         text-align:right;
     }
     .image-logo{
