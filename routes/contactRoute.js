@@ -21,7 +21,6 @@ router.route("/create").post((req, res) => {
 
     newcontact.save();
 })
-console.log(newcontact)
 
 
 
