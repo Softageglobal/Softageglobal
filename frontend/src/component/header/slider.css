@@ -248,28 +248,25 @@ boder-radius: 5px 0px 0px 5px;
 }
 @media  (max-width: 720px) {
     .title{
-        width: 60%;
+        width: 100%;
         margin-top: 19% auto 0%;
         text-align: center;
         align-items: center;
         color: #fff;
     }
     .title h1{
-        margin-bottom: 18%;
+        margin-bottom: 13%;
         font-size: 30px;
+        text-align: center;
     }
     .title h3{
-        width: 80%;
-        margin: 3px auto;
-        font-weight: 35;
-        line-height: 20px;
         display: none;
     }
     .bigbutton{
-        width: 55%;
-        align-items: center;
         display: flex;
-        margin-right: 7em;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
     
     :root{

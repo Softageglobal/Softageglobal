@@ -104,7 +104,7 @@ span{
       text-align: left;
 
   }
-  input[type="text"], input[type="tel"], input[type="email"], textarea{
+  input[type="text"], input[type="number"], input[type="email"], textarea{
       border-left: none;
       border-top: none;
       border-right: none;
@@ -120,7 +120,7 @@ span{
       outline:none;
       border-bottom:3px solid  rgb(0, 14, 222);
   }
-  input[type="tel"]:focus{
+  input[type="number"]:focus{
     border: none;
     outline:none;
     border-bottom:3px solid  rgb(0, 14, 222);

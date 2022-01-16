@@ -47,6 +47,7 @@ function Contact () {
          massage: input.massage
        }
        axios.post("http://localhost:3001/create", newcontact)
+       alert("your message has been submited!");
     }
 
 
@@ -103,11 +104,11 @@ function Contact () {
                      <div className="col">
                         <div className="form-group">
                            <label>E-mail</label>
-                           <input onChange={handleChange} name="Email" value={input.email} autoComplete="off" type="email"/>
+                           <input onChange={handleChange} name="Email" value={input.email} autoComplete="off" type="Email"/>
                         </div>
                         <div className="form-group">
                         <label>phone number</label>
-                        <input onChange={handleChange} name="phone" value={input.numbers} autoComplete="off" type="TEL"/>
+                        <input onChange={handleChange} name="phone" value={input.numbers} autoComplete="off" type="number"/>
                      </div>
                      </div>
                      <label className="label-radio">What would you like us to do for you?</label>

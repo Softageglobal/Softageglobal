@@ -8,16 +8,17 @@ import "./nav.css"
 
 const Navbar = () => {
        
-     const [navlinkopen, navlinktoggle] = useState(false);
 
-     const handle = () => {
-        navlinktoggle (!navlinkopen);
-     };
+
+  const handle = () => {
+    navlinktoggle (!navlinkopen);
+ };
+     const [navlinkopen, navlinktoggle] = useState(false);
 
 const renderClasses = () => {
    let classes = "navlink";
 
-   if (navlinkopen) {
+   if (!navlinkopen) {
       classes += "active"
    }
     return classes
