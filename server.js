@@ -21,7 +21,7 @@ app.use(express.json());
 
 const uri = process.env.DATABASE_URI;
 
-mongoose.connect ("mongodb://innocent:stopasking@cluster0-shard-00-00.qmpan.mongodb.net:27017,cluster0-shard-00-01.qmpan.mongodb.net:27017,cluster0-shard-00-02.qmpan.mongodb.net:27017/_Contactssl=true&replicaSet=atlas-vc71sj-shard-0&authSource=admin&retryWrites=true&w=majority", 
+mongoose.connect ("mongodb+srv://cjhansom:stopasking@cluster0.gmdxi.mongodb.net/softageretryWrites=true&w=majority", 
 err => {
     if(err) throw err;
     console.log("mongodb is connected");
